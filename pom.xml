@@ -63,6 +63,9 @@
                             <rules>
                                 <rule>
                                     <element>CLASS</element>
+                                    <includes>
+                                        <include>ru.netology.statistic.StatisticsService</include>
+                                    </includes>
                                     <limits>
                                         <limit>
                                             <counter>BRANCH</counter>
